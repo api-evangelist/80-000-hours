@@ -1,8 +1,29 @@
 aid: 80-000-hours
-name: 80 000 Hours
-description: 80 000 Hours is a company surfaced as a portfolio company of y-combinator and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: 80,000 Hours
+description: >-
+  80,000 Hours is an independent nonprofit, founded in 2011 by Benjamin Todd and
+  William MacAskill out of Oxford, that provides free research and support to help
+  people use their careers to help solve the world's most pressing problems. The
+  name refers to the roughly 80,000 hours a typical person works over their
+  lifetime. It publishes an evidence-based career guide, in-depth problem profiles,
+  a long-form podcast, and one-on-one advising, and runs a curated high-impact job
+  board at jobs.80000hours.org. Since 2016 it has ranked helping navigate the
+  transition to advanced AI as its top priority. It is a content and career-advice
+  organization rather than an API producer; no public developer API is published,
+  though it does serve a machine-readable llms.txt index of its content.
 url: https://raw.githubusercontent.com/api-evangelist/80-000-hours/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://80000hours.org/wp-content/uploads/2015/12/og-image1.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -14,9 +35,52 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Nonprofit
+- Careers
+- Career Advice
+- Effective Altruism
+- Job Board
+- AI Safety
+- Research
+- Podcast
+- Content
 apis: []
+common:
+- type: DomainSecurity
+  url: security/80-000-hours-domain-security.yml
+- type: Website
+  url: https://80000hours.org/
+- type: About
+  url: https://80000hours.org/about/
+- type: Blog
+  url: https://80000hours.org/latest/
+- type: Podcast
+  url: https://80000hours.org/podcast/
+- type: CareerGuide
+  url: https://80000hours.org/career-guide/
+- type: ProblemProfiles
+  url: https://80000hours.org/problem-profiles/
+- type: JobBoard
+  url: https://jobs.80000hours.org/
+- type: App
+  url: https://app.80000hours.org/
+- type: SignUp
+  url: https://80000hours.org/newsletter/
+- type: Support
+  url: https://80000hours.org/contact-us/
+- type: TermsOfService
+  url: https://80000hours.org/terms/
+- type: PrivacyPolicy
+  url: https://80000hours.org/privacy-policy/
+- type: LLMsTxt
+  url: llms/80-000-hours-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

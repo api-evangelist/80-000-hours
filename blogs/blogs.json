@@ -1,0 +1,14 @@
+{
+  "repo": "80-000-hours",
+  "feeds": [
+    {
+      "source": "https://80000hours.org/about/",
+      "feed_url": "https://80000hours.org/feed/",
+      "title": "",
+      "saved": 3,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 3,
+  "fetched": "2026-07-20T13:31:34Z"
+}
