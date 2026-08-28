@@ -12,6 +12,17 @@ description: >-
   organization rather than an API producer; no public developer API is published,
   though it does serve a machine-readable llms.txt index of its content.
 url: https://raw.githubusercontent.com/api-evangelist/80-000-hours/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
