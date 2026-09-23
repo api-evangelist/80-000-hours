@@ -1,0 +1,29 @@
+# Front Door AI Index — 80-000-hours — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: 80-000-hours
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: 80000hours.org
+  final_host: 80000hours.org
+  ownership: own
+  owner: 80-000-hours
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 69
+  host_score: 69
+  density: 16.08
+  words: 4291
+  tiers:
+    agentic: 0
+    core: 69
+    model: 0
+  ambiguous: 6
+  top_terms:
+    AI: 67
+    intelligence: 3
+    artificial intelligence: 2
+    automation: 2
+    agent: 1
